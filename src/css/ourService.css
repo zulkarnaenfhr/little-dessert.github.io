@@ -1,0 +1,60 @@
+#ourService {
+    padding-top: 8rem;
+}
+
+.pembatasOurService {
+    margin-left: 7rem;
+    margin-right: 7rem;
+}
+
+.headerOurService {
+    text-align: center;
+}
+
+.servicesContent {
+    padding-top: 2rem;
+}
+
+.macamService {
+    text-align: center;
+}
+
+.macamService i {
+    font-size: 55px;
+    color: black;
+}
+
+.macamService h4 {
+    color: rgb(236, 0, 140);
+}
+
+.macamService i:hover {
+    font-size: 55px;
+    color: #7c51a1;
+}
+
+/* its responsive time  */
+@media only screen and (max-width: 1400px) {
+}
+
+@media only screen and (max-width: 1200px) {
+    
+}
+
+@media only screen and (max-width: 992px) {
+    .pembatasOurService {
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+#secondContent{
+    margin-top: 2rem;
+}
+}
+
+@media only screen and (max-width: 576px) {
+}
+
+/* end of its responsive time  */

@@ -1,0 +1,53 @@
+#contactUs {
+    padding-top: 5rem;
+}
+
+.contactUs-left {
+    margin-left: 7rem;
+}
+
+.pembataspenjelasancontactus {
+    width: 50%;
+}
+
+.contatUs-right {
+    margin-top: 2rem;
+}
+
+/* its responsive time  */
+@media only screen and (max-width: 1400px) {
+}
+
+@media only screen and (max-width: 1200px) {
+}
+
+@media only screen and (max-width: 992px) {
+    .contactUs-left {
+        margin-left: 4rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .contactUs-left {
+        margin-left: 0rem;
+        text-align: center;
+    }
+    .pembataspenjelasancontactus {
+        width: 100%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .contactUs-right {
+        display: flex;
+        justify-content: center;
+    }
+    #buttonContactUs {
+        width: 150px;
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+}
+
+/* end of its responsive time  */

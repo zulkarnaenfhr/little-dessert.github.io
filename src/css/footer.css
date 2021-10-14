@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+/* font-family: 'Poppins', sans-serif;  */
+
+#footer {
+    padding-top: 9rem;
+}
+
+.pembatasfooter {
+    padding-right: 7rem;
+    padding-left: 7rem;
+}
+
+#footer a {
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
+
+.footerBranding h4 {
+    color: #7c51a1;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.brandingMedia ul li{
+    list-style: none;
+    display: inline;
+    margin-left: 0rem;
+    margin-right: 29px;
+}
+
+.brandingMedia ul li a{
+    font-size: 25px;
+    color: black;
+}
+
+.brandingMedia ul li a:hover{
+    color: #7c51a1;
+}
+
+.footerspesial ul li{
+    list-style: none;
+    margin-left: -2rem;
+}
+
+.footerspesial ul li a {
+    color: black;
+}
+
+.footerspesial ul li a:hover{
+    color: #7c51a1;
+}
+
+/* its responsive time  */
+@media only screen and (max-width: 1400px) {
+}
+
+@media only screen and (max-width: 1200px) {
+
+}
+
+@media only screen and (max-width: 992px) {
+}
+
+@media only screen and (max-width: 768px) {
+    .pembatasfooter{
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .pembatasfooter{
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+}
+
+/* end of its responsive time  */

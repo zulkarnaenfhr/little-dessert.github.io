@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+/* font-family: 'Poppins', sans-serif;  */
+
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+/* font-family: 'Bree Serif', serif;  */
+
+#homeSection {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.homeSection-left {
+    padding-left: 10rem;
+    margin-top: 8rem;
+}
+
+.catering-tagline {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    color: #ec008c;
+    font-size: 40px;
+}
+
+.catering-tagline2 {
+    font-family: "Bree Serif", serif;
+    font-weight: 500;
+    color: #1e2941;
+    font-size: 35px;
+}
+
+.homeSection-right {
+    margin-top: 4rem;
+}
+.tempatlogo{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.logoCatering {
+    height: 100%;
+    width: 100%;
+}
+
+/* its responsive time  */
+@media only screen and (max-width: 1400px) {
+    .catering-tagline {
+        font-size: 35px;
+    }
+    .catering-tagline2 {
+        font-size: 35px;
+    }
+}
+
+@media only screen and (max-width: 1149px) {
+    .homeSection-right {
+        margin-top: 8rem;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .homeSection-right {
+        margin-top: 5rem;
+    }
+    .homeSection-left{
+        padding-left: 2rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .homeSection-left{
+        margin-top: -3rem;
+    }
+    .homeSection-right{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    
+    .catering-tagline{
+        font-size: 23px;
+    }
+    .catering-tagline2{
+        font-size: 23px;
+    }
+    .homeSection-left button{
+        width: 120px;
+        height: 40px;
+        font-size: 15px;
+    }
+}
+
+/* end of its responsive time  */

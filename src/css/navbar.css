@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+/* font-family: 'Acme', sans-serif; */
+
+/* tulisan bunda ec008c */
+/* background bunda 7c51a1 */
+
+/* css  code for navbar  */
+.navbarfahri {
+    position: fixed;
+    top: 1%;
+    width: 100%;
+    /* border: 1px solid black; */
+    background: white;
+}
+
+.branding {
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: #7c51a1;
+    text-decoration: none;
+}
+
+.menuSection {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-top: 7px;
+}
+.menuSection ul {
+    list-style-type: none;
+}
+
+.menuSection ul li {
+    display: inline;
+    margin-right: 2rem;
+}
+
+.menuSection ul li a {
+    text-decoration-line: none;
+    font-size: 20px;
+    font-family: "Acme", sans-serif;
+}
+/* end of css  code for navbar  */
+
+/* its responsive time  */
+@media only screen and (max-width: 1400px) {
+}
+
+@media only screen and (max-width: 1200px) {
+}
+
+@media only screen and (max-width: 992px) {
+}
+
+@media only screen and (max-width: 768px) {
+    .branding {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+}
+
+/* end of its responsive time  */
