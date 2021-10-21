@@ -33,13 +33,18 @@
 .homeSection-right {
     margin-top: 4rem;
 }
-.tempatlogo{
+.tempatlogo {
     margin-left: 20%;
     margin-right: 20%;
 }
 .logoCatering {
     height: 100%;
     width: 100%;
+}
+
+#homeButton a {
+    color: black;
+    text-decoration: none;
 }
 
 /* its responsive time  */
@@ -62,30 +67,29 @@
     .homeSection-right {
         margin-top: 5rem;
     }
-    .homeSection-left{
+    .homeSection-left {
         padding-left: 2rem;
     }
 }
 
 @media only screen and (max-width: 768px) {
-    .homeSection-left{
+    .homeSection-left {
         margin-top: -3rem;
     }
-    .homeSection-right{
+    .homeSection-right {
         display: flex;
         justify-content: center;
     }
 }
 
 @media only screen and (max-width: 576px) {
-    
-    .catering-tagline{
+    .catering-tagline {
         font-size: 23px;
     }
-    .catering-tagline2{
+    .catering-tagline2 {
         font-size: 23px;
     }
-    .homeSection-left button{
+    .homeSection-left button {
         width: 120px;
         height: 40px;
         font-size: 15px;

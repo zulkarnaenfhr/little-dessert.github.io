@@ -7,7 +7,7 @@
 /* css  code for navbar  */
 .navbarfahri {
     position: fixed;
-    top: 1%;
+    top: 0%;
     width: 100%;
     /* border: 1px solid black; */
     background: white;
@@ -41,6 +41,8 @@
     font-size: 20px;
     font-family: "Acme", sans-serif;
 }
+
+
 /* end of css  code for navbar  */
 
 /* its responsive time  */

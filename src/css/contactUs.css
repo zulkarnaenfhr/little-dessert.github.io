@@ -10,8 +10,13 @@
     width: 50%;
 }
 
-.contatUs-right {
-    margin-top: 2rem;
+.contactUs-right {
+    padding-top: 2rem;
+}
+
+#buttonContactUs a{
+    color: black;
+    text-decoration: none;
 }
 
 /* its responsive time  */
